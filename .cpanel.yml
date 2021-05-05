@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/onlineinventra/public_html/hamza/
+    - /bin/cp * $DEPLOYPATH
